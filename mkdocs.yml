@@ -44,7 +44,7 @@ theme:
     - content.action.edit
     - content.code.copy
     - content.code.annotate
-  custom_dir: docs/overrides
+  # custom_dir: docs/overrides
   icon:
     repo: fontawesome/brands/github
 extra_css:
@@ -81,3 +81,9 @@ nav:
   - Home: index.md
 not_in_nav: |
   /includes/**/*.*
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jgrieger
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jacob-grieger-02753224a
