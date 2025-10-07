@@ -4,3 +4,80 @@ copyright: Copyright &copy; 2025 Jacob Grieger
 repo_url: https://github.com/jgrieger/sw-engineering-kb/
 edit_uri: edit/main/docs/
 strict: true
+theme:
+  language: en
+  name: material
+  # logo: assets/logo.png
+  # favicon: assets/favicon.png
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: custom
+      accent: custom
+
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: custom
+      accent: custom
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - announce.dismiss
+    - content.action.edit
+    - content.code.copy
+    - content.code.annotate
+  custom_dir: docs/overrides
+  icon:
+    repo: fontawesome/brands/github
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - docs/includes/glossary.md
+  - pymdownx.details
+validation:
+  omitted_files: info
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+nav:
+  - Home: index.md
+not_in_nav: |
+  /includes/**/*.*

@@ -2,7 +2,7 @@
 
 A personal knowledge base documenting software engineering experiences, helpful resources, and practical code snippets in cookbook format.
 
-**[View the documentation ’](https://jgrieger.github.io/sw-engineering-kb)**
+**[View the documentation](https://jgrieger.github.io/sw-engineering-kb)**
 
 ## Overview
 
