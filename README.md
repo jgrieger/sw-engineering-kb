@@ -11,7 +11,19 @@ This repository contains a curated collection of:
 - Links to helpful external resources
 - Practical code examples and cookbook-style snippets
 
-All content is licensed under CC 1.0 (public domain).
+## License
+
+**Content:** All documentation, text, and code snippets are licensed under [CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/) - free to use without attribution.
+
+**Brand Identity:** Logo, color scheme, and visual design elements are © All Rights Reserved.
+
+## Contributing
+
+While this is a personal knowledge base, suggestions and corrections are welcome! Feel free to:
+- Open an issue to report errors or suggest improvements
+- Submit a pull request for typo fixes or clarifications
+
+Please note that content additions are selectively accepted to maintain the personal nature of this knowledge base.
 
 ## Local Development
 

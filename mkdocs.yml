@@ -1,6 +1,6 @@
 site_name: Software Engineering Knowledge Base
 site_url: https://jgrieger.github.io/sw-engineering-kb
-copyright: Copyright &copy; 2025 Jacob Grieger
+copyright: Copyright &copy; 2025 Jacob Grieger | <a href="https://phoenixit.consulting" target="_blank">Professional Services</a>
 repo_url: https://github.com/jgrieger/sw-engineering-kb/
 edit_uri: edit/main/docs/
 strict: true
@@ -87,3 +87,6 @@ extra:
       link: https://github.com/jgrieger
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/jacob-grieger-02753224a
+    - icon: fontawesome/solid/briefcase
+      link: https://phoenixit.consulting
+      name: Professional Services
